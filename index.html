@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Al Quran Online Academy</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b3d2e;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #08291f;
+}
+
+header img { height: 60px; }
+
+nav a {
+    color: gold;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),
+    url('https://images.unsplash.com/photo-1581091012184-5c0f2c5b0c77') center/cover;
+}
+
+.hero h1 { font-size: 50px; color: gold; }
+
+.btn {
+    background: gold;
+    padding: 12px 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.section { padding: 60px; text-align: center; }
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #08291f;
+    margin: 15px;
+    padding: 25px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+/* FORM */
+.form-box {
+    background: #08291f;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* WhatsApp */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img src="logo.png">
+<nav>
+<a href="#">Home</a>
+<a href="#courses">Courses</a>
+<a href="#register">Register</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero">
+<h1>Learn Quran Online with Experts</h1>
+<p>Male & Female Teachers | Free Trial | Flexible Timings</p>
+<a href="#register" class="btn">Enroll Now</a>
+</div>
+
+<div id="courses" class="section">
+<h2 style="color: gold;">Our Courses</h2>
+<div class="cards">
+<div class="card">Noorani Qaida</div>
+<div class="card">Quran Reading</div>
+<div class="card">Tajweed</div>
+<div class="card">Hifz Program</div>
+</div>
+</div>
+
+<div id="register" class="form-box">
+<h2 style="color: gold;">Student Registration</h2>
+
+<form action="https://formsubmit.co/alquraanonlineacadamy@gmail.com" method="POST">
+<input type="text" name="name" placeholder="Student Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<input type="text" name="phone" placeholder="Phone Number" required>
+
+<select name="course">
+<option>Select Course</option>
+<option>Noorani Qaida</option>
+<option>Quran Reading</option>
+<option>Tajweed</option>
+<option>Hifz</option>
+</select>
+
+<button class="btn">Submit</button>
+</form>
+</div>
+
+<div id="contact" class="section">
+<h2 style="color: gold;">Contact</h2>
+<p>📞 +92 325 5093970 | +92 315 1764471</p>
+<p>📧 alquraanonlineacadamy@gmail.com</p>
+</div>
+
+<a href="https://wa.me/923255093970?text=Assalamualaikum%20I%20want%20to%20join%20Quran%20classes"
+class="whatsapp">💬</a>
+
+</body>
+</html>
